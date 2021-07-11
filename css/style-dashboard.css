@@ -1,0 +1,42 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+  font-family: Helvetica;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  text-transform: capitalize;
+}
+
+tr:hover {background-color:#f5f5f5;}
+th:{text-transform: uppercase;}
+
+$custom-file-label: {en: "Browse",es: "Elegir"};
+
+.kotak {
+	box-shadow: 3px 3px 5px #fff;
+}
+
+.belakang {
+  background-image: url('../img/background.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.judul {
+	color: white;
+	font-family: Helvetica;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+.hak {
+  color: white;
+  text-decoration: none;
+}

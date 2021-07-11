@@ -1,0 +1,39 @@
+body {
+	background-color: #1E7B8A;
+}
+
+.navbar, .hak {
+	background-color: #044B5D ;
+}
+
+.judul {
+	font-family: consolas;
+}
+
+.wa {
+	font-family: consolas;
+	color: white;
+	text-decoration: none;
+}
+
+.produk {
+	font-family: consolas;
+	font-size: 30px;
+	color: white;
+	margin-top: 90px;
+	margin-bottom: 10px;
+}
+
+.card {
+	width: 23rem;
+}
+
+.card-footer {
+	background-color: #ECE5DF;
+	
+}
+
+.row .card:hover {
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	transform: scale(1.02);
+}
